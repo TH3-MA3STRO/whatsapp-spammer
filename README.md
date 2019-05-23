@@ -28,7 +28,8 @@ chromedriver|
 
 After that just run `python whatsappspammer.py` and follow the on-screen instructions.
 
-
+### Note:
+`chromedriver` should be in PATH
 
 
 
