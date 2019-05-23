@@ -1,13 +1,14 @@
 # whatsapp-spammer
 Spam your whatsapp groups and contacts with hundreds of messages.
-Prerequisites:
+
+###### Prerequisites:
 
 > Latest python3 version
 
 > A Terminal of course xD
 
 
-## Required Packages
+###### Required Packages
 
 Before running the script you need these packages installed.
 
