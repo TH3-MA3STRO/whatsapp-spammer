@@ -7,6 +7,15 @@ Spam your whatsapp groups and contacts with hundreds of messages.
 
 > A Terminal of course xD
 
+###### How to install:
+
+``` 
+git clone https://github.com/TH3-MA3STRO/whatsapp-spammer.git
+
+cd whatsapp spammer
+```
+
+
 
 ###### Required Packages
 
