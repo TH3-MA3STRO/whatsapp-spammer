@@ -29,7 +29,13 @@ chromedriver|
 After that just run `python whatsappspammer.py` and follow the on-screen instructions.
 
 ### Note:
-`chromedriver` should be in PATH
+`chromedriver` should be in PATH, else mention the location of `chromedriver` in line 9
+
+For example
+```
+driver = driver.Chrome(r'''C:\chromedriver.exe''')
+```
+
 
 
 
