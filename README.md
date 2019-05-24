@@ -12,7 +12,7 @@ Spam your whatsapp groups and contacts with hundreds of messages.
 ``` 
 git clone https://github.com/TH3-MA3STRO/whatsapp-spammer.git
 
-cd whatsapp spammer
+cd whatsapp-spammer
 ```
 
 
