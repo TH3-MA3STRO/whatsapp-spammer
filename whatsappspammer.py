@@ -4,9 +4,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 
 # user inputs
-count = int(input("Enter the number of msgs you wnat to spam: "))
-msg = input('Enter the msg you wnat to spam:')
-type_ch = input("Please specify the type of chat i.e. Group or a Contact: ").lower()
+count = int(input("Enter the number of messages you want to spam: "))
+msg = input('Enter the message you wnat to spam: ')
+type_ch = input("Please specify the type of chat (i.e. Group or a Contact): ").lower()
 # script
 driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com")
