@@ -11,7 +11,7 @@ count = int(input("Enter the number of messages you want to spam: "))
 type_ch = input("Please specify the type of chat i.e. Group or a Contact: ").lower()
 
 # script
-driver = webdriver.Chrome(executable_path=r'''/path./to/chromedriver''')
+driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com")
 
 time.sleep(10)  # Can be changed according to user's internet speed
