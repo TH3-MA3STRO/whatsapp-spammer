@@ -15,7 +15,7 @@ git clone https://github.com/TH3-MA3STRO/whatsapp-spammer.git
 cd whatsapp-spammer
 ```
 
-# Requirements for ```whatsappspammer.py```
+### Requirements for ```whatsappspammer.py```
 
 ###### Required Packages
 
@@ -36,7 +36,7 @@ For example
 driver = driver.Chrome(r'''C:\chromedriver.exe''')
 ```
 
-# Requirements for ```wap_spammer_for_linux.py```
+### Requirements for ```wap_spammer_for_linux.py```
 
 ###### Required Packages
 
