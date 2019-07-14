@@ -36,7 +36,7 @@ For example
 driver = driver.Chrome(r'''C:\chromedriver.exe''')
 ```
 
-### Requirements for ```wap_spammer_for_linux.py```
+### Requirements for ```whatsappspammerlinux.py```
 
 ###### Required Packages
 
@@ -49,8 +49,8 @@ chromedriver|
 tkinter|
 pyautogui|
 
-After that just run `python wap_spammer_for_linux.py` and follow the on-screen instructions.
-
+After that just run `python whatsappspammer.py` and follow the on-screen instructions.
+To reset login credentials just logout from your device.
 ### Note:
 `chromedriver` should be in PATH, else mention the location of `chromedriver`
 
@@ -58,6 +58,7 @@ For example
 ```
 driver = driver.Chrome(executable_path=r'''/path/to/chromedriver''')
 ```
+
 
 
 
