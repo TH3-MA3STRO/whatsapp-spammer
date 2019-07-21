@@ -3,7 +3,7 @@ Spam your whatsapp groups and contacts with hundreds of messages.
 
 ###### Prerequisites:
 
-> Latest python3 version
+> Latest python 3.7
 
 > A Terminal of course xD
 
