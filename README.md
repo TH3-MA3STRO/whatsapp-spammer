@@ -10,7 +10,7 @@ Spam your whatsapp groups and contacts with hundreds of messages.
 ###### How to install:
 
 ``` 
-git clone -b 1.1_linux --single-branch https://github.com/th3-ma3stro/whatsapp-spammer.git
+git clone -b 1.0_windows.py --single-branch https://github.com/th3-ma3stro/whatsapp-spammer.git
 
 
 cd whatsapp-spammer
