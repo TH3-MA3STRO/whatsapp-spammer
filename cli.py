@@ -53,22 +53,13 @@ def que1():
                     'name': 'Contact'
                 }
             ]
-        }
-    ]
-    answers = prompt(questions, style=styler())
-    return answers
-
-
-def que2():
-    questions2 = [
+        },
         {
             'type': 'input',
             'message': 'Enter the Numer of messages you wish to spam:',
             'name': 'num',
             'validate': NumberValidator
         }
-
     ]
-    numo = prompt(questions2, style=styler())
-    return numo
-
+    answers = prompt(questions, style=styler())
+    return answers
