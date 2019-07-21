@@ -6,15 +6,14 @@ import time
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-from cli import que1, que2
+from cli import que1
 import pyautogui
 
 # user inputs
 
-type_c = que1()
-count1 = que2()
+inps = que1()
 type_ch = type_c['tch'].lower()
-count = int(count1['num'])
+count = int(inps['num'])
 
 # driver configs
 options = webdriver.ChromeOptions()
