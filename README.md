@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 And you can download `chromedriver` from [here](https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.140/)
 
-After that just run `python whatsappspammer.py` and follow the on-screen instructions.
+After that just run `python spammer.py` and follow the on-screen instructions.
 
 ### Note:
 `chromedriver` should be in PATH, else mention the location of `chromedriver` in line 9
