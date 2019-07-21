@@ -19,7 +19,7 @@ count = int(inps['num'])
 options = webdriver.ChromeOptions()
 options.add_argument(r'''--user-data-dir=./User_Data''')
 
-driver = webdriver.Chrome(executable_path=r'''/home/chromedriver''',options=options)
+driver = webdriver.Chrome(options=options)
 act = ActionChains(driver)
 driver.get("https://web.whatsapp.com")
 
