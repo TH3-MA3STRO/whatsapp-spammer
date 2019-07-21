@@ -23,9 +23,17 @@ Modules|
 :---:|
 selenium-webdriver|
 pyautogui|
+pyfiglet|
+pyinquirer|
 
-After that just run `python whatsappspammer.py` and follow the on-screen instructions.
+To install these modules run while in the whatsapp-spammer directory
+```
+pip install -r requirements.txt
+```
+
+After that just run `python spammerli.py` and follow the on-screen instructions.
 To reset login credentials just logout from your device.
+
 ### Note:
 `chromedriver` should be in PATH, else mention the location of `chromedriver`
 
