@@ -12,15 +12,15 @@ import pyautogui
 # user inputs
 
 type_c = que1()
-count = que2()
+count1 = que2()
 type_ch = type_c['tch'].lower()
-
+count = int(count1['num'])
 
 # driver configs
-# options = webdriver.ChromeOptions()
-# options.add_argument('--user-data-dir=./User_Data')
-# driver = webdriver.Chrome(executable_path=r'''/home/chromedriver''', options=options)
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.add_argument(r'''--user-data-dir=%LOCALAPPDATA%\Google\Chrome\User Data''')
+
+driver = webdriver.Chrome(options=options)
 act = ActionChains(driver)
 driver.get("https://web.whatsapp.com")
 
