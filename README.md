@@ -15,16 +15,22 @@ git clone https://github.com/TH3-MA3STRO/whatsapp-spammer.git
 cd whatsapp-spammer
 ```
 
-### Requirements for ```whatsappspammer.py```
-
-###### Required Packages
+##### Required Packages
 
 Before running the script you need these packages installed.
 
 Modules|
 :---:|
 selenium-webdriver|
-chromedriver|
+pyautogui|
+pyinquirer|
+pyfiglet|
+
+You can install these by running
+```
+pip install -r requirements.txt
+```
+and you can download `chromedriver` from [here](https://chromedriver.storage.googleapis.com/index.html?path=75.0.3770.140/)
 
 After that just run `python whatsappspammer.py` and follow the on-screen instructions.
 
@@ -36,28 +42,6 @@ For example
 driver = driver.Chrome(r'''C:\chromedriver.exe''')
 ```
 
-### Requirements for ```whatsappspammerlinux.py```
-
-###### Required Packages
-
-Before running the script you need these packages installed.
-
-Modules|
-:---:|
-selenium-webdriver|
-chromedriver|
-tkinter|
-pyautogui|
-
-After that just run `python whatsappspammer.py` and follow the on-screen instructions.
-To reset login credentials just logout from your device.
-### Note:
-`chromedriver` should be in PATH, else mention the location of `chromedriver`
-
-For example
-```
-driver = driver.Chrome(executable_path=r'''/path/to/chromedriver''')
-```
 
 
 
