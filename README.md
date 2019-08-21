@@ -1,4 +1,6 @@
-# whatsapp-spammer
+# whatsapp-spammer 
+[![BCH compliance](https://bettercodehub.com/edge/badge/TH3-MA3STRO/whatsapp-spammer?branch=1.0_windows.py)](https://bettercodehub.com/)
+
 Spam your whatsapp groups and contacts with hundreds of messages.
 
 ###### Prerequisites:
