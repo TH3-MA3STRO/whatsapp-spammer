@@ -1,6 +1,5 @@
 # imports
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 import selenium
 import time
 from selenium.webdriver.support import expected_conditions as ec
@@ -10,9 +9,8 @@ from cli import que1
 import pyautogui
 
 # user inputs
-
 inps = que1()
-type_ch = type_c['tch'].lower()
+type_ch = inps['tch'].lower()
 count = int(inps['num'])
 
 # driver configs
@@ -20,15 +18,11 @@ options = webdriver.ChromeOptions()
 options.add_argument(r'''--user-data-dir=%LOCALAPPDATA%\Google\Chrome\User Data''')
 
 driver = webdriver.Chrome(options=options)
-act = ActionChains(driver)
 driver.get("https://web.whatsapp.com")
-
-act = ActionChains(driver)
 wait = WebDriverWait(driver, 40)
 time.sleep(10)  # Can be changed according to user's internet speed
 
 # script
-
 try:
     if type_ch == "contact":
         con_name = pyautogui.prompt("Enter Contact's Name")
@@ -67,9 +61,7 @@ try:
         time.sleep(0.5)
 
     pyautogui.alert('The chat was bombed successfully!')
-
 except selenium.common.exceptions.WebDriverException:
     pyautogui.alert("Some error occurred :(")
     time.sleep(10)
-
 driver.__exit__()
