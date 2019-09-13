@@ -45,7 +45,7 @@ For example
 driver = driver.Chrome(r'''C:\chromedriver.exe''')
 ```
 
-
+##### Author: _***TH3-MA3STRO***_(Instagram: @th3_ma3stro)
 
 
 
